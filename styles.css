@@ -1,0 +1,191 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+nav .logo img {
+    width: 100px;
+    height: auto;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+h1, h2, h3 {
+    color: #1c1c22;
+}
+
+header {
+    background-color: #dddddf;
+    padding: 20px;
+    color: #ffecdb;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+
+.hero {
+    background: #ebe4df;
+    color: #1c1c22;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.selling-text {
+    background-color: #ffecdb;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.selling-text h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+.selling-text h4 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.selling-text p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.cta-btn {
+    background-color: #1c1c22;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.studenttext {
+    background-color: #f4f4f4;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+
+
+.students {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+.students h3 {
+    font-size: 22px;
+    color: #1c1c22;
+}
+
+.students p {
+    font-size: 16px;
+    margin: 10px 0;
+    color: #555;
+}
+
+.students span {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #000000;
+}
+
+
+.cta-repeat {
+    background-color: #d1d1d5;
+    color: #ffecdb;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+
+
+footer {
+    background-color: #6ec2e4;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 30px 0;
+}
+
+.footer-links ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+
+
+
+
+.contact-info {
+    margin-bottom: 30px;
+    color: #000000;
+}
+
+.contact-info h4 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.footer-logo img {
+    width: 100px;
+    margin-top: 30px;
+    
+}
