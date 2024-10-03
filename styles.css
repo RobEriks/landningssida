@@ -57,8 +57,6 @@ nav ul li a {
     font-weight: bold;
 }
 
-
-
 .hero {
     background: #ebe4df;
     color: #1c1c22;
@@ -77,31 +75,51 @@ nav ul li a {
 }
 
 .selling-text {
-    background-color: #ffecdb;
+    background-color: #f8f9f9;
     padding: 50px 20px;
     text-align: center;
+    position: relative;
 }
 
 .selling-text h2 {
-    font-size: 28px;
-    margin-bottom: 20px;
-}
-.selling-text h4 {
-    font-size: 20px;
-    margin-bottom: 5px;
+   margin-bottom: 10px; 
 }
 
-.selling-text p {
-    font-size: 18px;
-    margin-bottom: 20px;
+.selling-text-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
 }
+
+.selling-text-image {
+  
+    max-width: 100px;
+    margin-right: 600px; 
+    position: relative;
+}
+
+.selling-text-image img {
+    width: 500px;
+    height: auto;
+    border-radius: 10px; 
+}
+
+.selling-text2 {
+    max-width: 600px;
+    text-align: left;
+}
+
+
+
 
 .cta-btn {
     background-color: #1c1c22;
     color: #ffffff;
     padding: 10px 20px;
     border-radius: 5px;
-    font-size: 16px;
+    font-size: 30px;
     display: inline-block;
     text-transform: uppercase;
     font-weight: bold;
@@ -146,7 +164,7 @@ nav ul li a {
 .cta-repeat {
     background-color: #d1d1d5;
     color: #ffecdb;
-    padding: 50px 20px;
+    padding: 50px;
     text-align: center;
 }
 
@@ -155,37 +173,39 @@ nav ul li a {
 footer {
     background-color: #6ec2e4;
     padding: 50px 20px;
-    text-align: center;
+    text-align: left;
+    font-weight: bold
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
 }
 
 
-.footer-links ul {
-    list-style: none;
-    padding: 0;
-    margin: 30px 0;
-}
 
 .footer-links ul li {
     display: inline-block;
-    margin: 0 15px;
+    margin: 0 15px; 
 }
 
-
-
-
+.footer-logo {
+    margin-left: auto;
+}
 
 .contact-info {
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     color: #000000;
+    margin-left: 50px;
 }
 
 .contact-info h4 {
-    font-size: 24px;
-    margin-bottom: 10px;
+    font-size: 18px;
+    
 }
 
 .footer-logo img {
-    width: 100px;
-    margin-top: 30px;
-    
+    width: 150px;
+    margin-right: 50px;
 }
